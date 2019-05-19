@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import time
 import sys
 import os
@@ -27,9 +26,8 @@ def tail(fn, sleep=0.1):
         pass
   except KeyboardInterrupt:
     f.close()
-      
 
-if __name__ == "__main__":
+def mtail():
   try: 
     files = os.listdir('.')
     tails = []
