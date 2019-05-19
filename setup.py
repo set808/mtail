@@ -8,4 +8,5 @@ setup(name='mtail',
       author_email='spencertaylor808@gmail.com',
       license='MIT',
       packages=['mtail'],
+      scripts=['bin/mtail'],
       zip_safe=False) 
