@@ -16,12 +16,6 @@ Run mtail:
 
 ```$ mtail```
 
-## Limitations
-
-* New files created during program run will not be monitored
-* Subprocess isn't closed on file deletion.
-
-
 ## TODO
 
 * Add monitoring for new files created during runtime
