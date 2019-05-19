@@ -13,7 +13,7 @@ def tail(fn, sleep=0.1):
       line = f.readline()
 
       if line:
-        sys.stdout.write(line)
+        sys.stdout.write("{}: {}".format(fn, line))
       else:
         time.sleep(sleep)
       
@@ -27,7 +27,6 @@ def tail(fn, sleep=0.1):
         pass
   except KeyboardInterrupt:
     f.close()
-    return
       
 
 if __name__ == "__main__":
