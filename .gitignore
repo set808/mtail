@@ -9,3 +9,6 @@
 
 #Python egg metadeta, regenerated from source files by setuptools
 /*.egg-info
+
+# Other implementations
+/implementations/
