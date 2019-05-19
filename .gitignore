@@ -1,1 +1,11 @@
+# Files created to test functions
 *.log
+
+#Compiled Python modules
+*.pyc
+
+# Setuptools distribution folder
+/dist/
+
+#Python egg metadeta, regenerated from source files by setuptools
+/*.egg-info
